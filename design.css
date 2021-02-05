@@ -1,0 +1,114 @@
+.infinity-form .btn-social {
+    color: white;
+    border: 0;
+    display: inline-block;
+    margin: 0px;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+
+.infinity-form .btn-facebook {
+    color: blue;
+}
+
+.infinity-form .btn-google {
+    color: yellow;
+}
+
+.infinity-form .btn-twitter {
+    color: #03d3fc;
+}
+.infinity-form .btn-facebook:hover {
+    color: white;
+    background: hsla(221, 40%, 40%, 1);
+}
+.infinity-form .btn-google:hover {
+    color: white;
+    background: hsla(4, 59%, 54%, 1);
+}
+.infinity-form .btn-twitter:hover {
+    color: white;
+    background: hsla(195, 78%, 54%, 1);
+}
+
+.infinity-form button[type="submit"] {
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background: linear-gradient(45deg,  #4285f4, #709de8);
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.infinity-form button[type="submit"]:hover {
+    background: linear-gradient(45deg, #709de8, #4285f4);
+}
+
+.forget-link, .login-link, .register-link {
+    color: blue;
+    font-weight: bold;
+}
+
+.forget-link:hover, .login-link:hover, .register-link:hover {
+    color: #03d3fc;
+    text-decoration: none;
+}
+
+.infinity-image-container{
+    background: url('bg\ login.jpg') center no-repeat;
+    background-size: cover;
+    height: 700px;
+    align-items: center;
+}
+
+.infinity-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infinity-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.infinity-form h4 {
+    font-weight: bold;
+}
+
+.infinity-form .form-input {
+    position: relative;
+}
+
+.infinity-form .form-input input {
+    width: 100%;
+    color: #777777;
+    font-weight: bold;
+    padding-left: 40px;
+    background: transparent;
+    outline: none;
+    border-bottom: 2px solid #777777;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.infinity-form .form-input span {
+    position:  absolute;
+    top: 8px;
+    padding-left: 10px;
+    color: #777777;
+}
+
+.infinity-form .form-input input:focus, .infinity-form .form-input input:valid {
+    background-color: white !important;
+    border: 0px;
+}
